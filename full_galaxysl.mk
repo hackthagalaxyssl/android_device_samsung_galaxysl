@@ -29,3 +29,10 @@ PRODUCT_DEVICE := galaxysl
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := GT-I9003
+
+# Init files
+PRODUCT_COPY_FILES += \
+    device/samsung/galaxysl/init.rc:root/init.rc \
+    device/samsung/galaxysl/lpm.rc:recovery/root/lpm.rc
+
+
